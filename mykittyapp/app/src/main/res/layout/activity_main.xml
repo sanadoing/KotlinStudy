@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/kitty_1"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_1" />
+
+        <ImageView
+            android:id="@+id/kitty_2"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_2" />
+
+        <ImageView
+            android:id="@+id/kitty_3"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/kitty_4"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_4" />
+
+        <ImageView
+            android:id="@+id/kitty_5"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_5" />
+
+        <ImageView
+            android:id="@+id/kitty_6"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/kitty_7"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_7" />
+
+        <ImageView
+            android:id="@+id/kitty_8"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_8" />
+
+        <ImageView
+            android:id="@+id/kitty_9"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:src="@drawable/kitty_9" />
+    </LinearLayout>
+
+
+</LinearLayout>

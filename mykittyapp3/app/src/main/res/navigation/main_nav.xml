@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/kitty1Fragment">
+
+    <fragment
+        android:id="@+id/kitty1Fragment"
+        android:name="com.sanadoing.mykittyapp3.kitty1Fragment"
+        android:label="fragment_kitty1"
+        tools:layout="@layout/fragment_kitty1" >
+        <action
+            android:id="@+id/action_kitty1Fragment_to_kitty2Fragment"
+            app:destination="@id/kitty2Fragment" />
+        <action
+            android:id="@+id/action_kitty1Fragment_to_kitty3Fragment"
+            app:destination="@id/kitty3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kitty2Fragment"
+        android:name="com.sanadoing.mykittyapp3.kitty2Fragment"
+        android:label="fragment_kitty2"
+        tools:layout="@layout/fragment_kitty2" >
+        <action
+            android:id="@+id/action_kitty2Fragment_to_kitty1Fragment"
+            app:destination="@id/kitty1Fragment" />
+        <action
+            android:id="@+id/action_kitty2Fragment_to_kitty3Fragment"
+            app:destination="@id/kitty3Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/kitty3Fragment"
+        android:name="com.sanadoing.mykittyapp3.kitty3Fragment"
+        android:label="fragment_kitty3"
+        tools:layout="@layout/fragment_kitty3" >
+        <action
+            android:id="@+id/action_kitty3Fragment_to_kitty2Fragment"
+            app:destination="@id/kitty2Fragment" />
+        <action
+            android:id="@+id/action_kitty3Fragment_to_kitty1Fragment"
+            app:destination="@id/kitty1Fragment" />
+    </fragment>
+</navigation>
